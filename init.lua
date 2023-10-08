@@ -12,6 +12,16 @@ return {
     remotes = {},
   },
 
+  plugins = {
+    {
+      "rebelot/heirline.nvim",
+      opts = function(_, opts)
+        opts.winbar = nil
+        return opts
+      end
+    },
+  },
+
   colorscheme = "catppuccin",
 
   diagnostics = {
@@ -50,14 +60,12 @@ return {
       },
     }
 
-    require("hop").setup {}
-
     require("neo-tree").setup {
       filesystem = {
         filtered_items = {
           visible = true,
           hide_dotfiles = false,
-          hide_gitignored = true,
+          hide_gitignored = false,
         },
       },
     }
