@@ -11,13 +11,15 @@ return {
 
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   
-  { import = "astrocommunity.scrolling.mini-animate" },
-
   { import = "astrocommunity.split-and-window.edgy-nvim" },
 
   { import = "astrocommunity.color.modes-nvim" },
   { import = "astrocommunity.color.twilight-nvim" },
 
   { import = "astrocommunity.pack.kotlin" },
-
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.python" },
 }

@@ -22,7 +22,7 @@ return {
     },
   },
 
-  colorscheme = "catppuccin",
+  colorscheme = "catppuccin-frappe",
 
   diagnostics = {
     virtual_text = true,
